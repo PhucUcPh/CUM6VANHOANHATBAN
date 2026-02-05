@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nghệ thuật</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .art-card {
+        background: #fff;
+        padding: 2rem;
+        text-align: center;
+        border-bottom: 3px solid var(--color-secondary);
+        transition: var(--transition-fast);
+      }
+      .art-card:hover {
+        transform: translateY(-5px);
+        background: #fdfdfd;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar-container">
+    <div class="nav-brand">
+        <a href="index.html">Nhật Bản</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+        <li><a href="clothes.html" class="nav-link">Trang phục</a></li>
+        <li><a href="arts.html" class="nav-link">Nghệ thuật</a></li>
+        <li><a href="pop_culture.html" class="nav-link">Văn hóa</a></li>
+        <li><a href="about_us.html" class="nav-link">Về chúng tôi</a></li>
+        <li><a href="quiz.html" class="nav-link">Đố vui</a></li>
+    </ul>
+</nav>
+
+    <header
+      style="
+        background:
+          linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+          url(&quot;https://images.unsplash.com/photo-1594911772125-07fc7a2d8d9f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80&quot;);
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+      "
+    >
+      <div class="container fade-in">
+        <h1 style="font-size: 3.5rem; color: white">NGHỆ THUẬT</h1>
+        <p style="font-size: 1.2rem">
+          Khám phá các hình thức nghệ thuật truyền thống độc đáo của Nhật Bản
+        </p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+          "
+        >
+          <div class="art-card animate-on-scroll">
+            <div class="card-image">
+              <img
+                src="https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/538989508-1675500462272.jpg"
+                alt="Trà đạo"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Sadō/Chadō</h3>
+              <p>
+                Trà đạo Nhật Bản hay còn gọi là (Sadō/Chadō) là nghệ thuật
+                thưởng trà truyền thống, kết hợp thiền tông và triết lý sống,
+                không chỉ là pha trà mà còn thể hiện sự tôn trọng, tinh tế trong
+                từng động tác. Dựa trên 4 nguyên tắc Hòa - Kính - Thanh - Tịch,
+                trà đạo hướng con người đến sự bình yên, hài hòa với thiên nhiên
+                và sự gắn kết giữa người với người thông qua matcha.
+              </p>
+            </div>
+          </div>
+
+          <div class="art-card animate-on-scroll">
+            <div class="card-image">
+              <img
+                src="https://cdn-images.vtv.vn/66349b6076cb4dee98746cf1/2024/07/20/ad-4nxevvcf4fkslg6yk3xanzxyinywpzzxcnl-alh0anqcfvtiyh8dvq0vll5njjpqprfi3gi1h1osxsxbxcrutvy2s7ksbk3z-aa3a3xzzv5yghyjaqzbolhcu3nn414obh2yt2ypppw1q0z5aopo9sihfqr5p-86432092246533361533233.jpg"
+                alt="Cắm hoa"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Ikebana</h3>
+              <p>
+                Ikebana (Hoa đạo) là nghệ thuật cắm hoa truyền thống Nhật Bản
+                hơn 600 năm tuổi, chú trọng sự tối giản, hài hòa giữa Thiên -
+                Địa - Nhân và tôn vinh vẻ đẹp tự nhiên của hoa lá. Khác với cách
+                cắm hoa phương Tây chú trọng số lượng, Ikebana tập trung vào
+                đường nét, cấu trúc và truyền "sinh khí" cho tác phẩm để thể
+                hiện triết lý về sự vô thường.
+              </p>
+            </div>
+          </div>
+
+          <div class="art-card animate-on-scroll">
+            <div class="card-image">
+              <img
+                src="https://thegioidisan.vn/assets/media/thu-phap-nhat-ban1.jpg"
+                alt="Thư pháp"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Shodo</h3>
+              <p>
+                Thư pháp Nhật Bản, hay Shodo (Thư đạo - 書道), là nghệ thuật
+                viết chữ bằng bút lông và mực đen trên giấy truyền thống, phản
+                ánh tinh hoa tâm hồn, sự kiên nhẫn và triết lý Thiền của người
+                Nhật. Được du nhập từ Trung Quốc vào thế kỷ thứ 6, Shodo đã phát
+                triển thành một loại hình nghệ thuật độc đáo, kết hợp giữa Kanji
+                (chữ Hán), Hiragana, và Katakana để thể hiện sự tinh tế qua từng
+                nét bút.
+              </p>
+            </div>
+          </div>
+          <div class="art-card animate-on-scroll">
+            <div class="card-image">
+              <img
+                src="https://japan.net.vn/images/uploads/2018/06/24/26-nghe-thuat-gap-giay-origami-nhat-ban.jpg"
+                alt="Origami"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Origami</h3>
+              <p>
+                Origami (折り紙) là nghệ thuật gấp giấy truyền thống của Nhật
+                Bản, kết hợp giữa "ori" (gấp) và "kami" (giấy), biến những tờ
+                giấy vuông thành các hình thù 3D phức tạp mà không cắt hay dán.
+                Phát triển mạnh từ thời Edo (1603-1867), Origami đại diện cho
+                văn hóa, sự sáng tạo và tính kiên nhẫn, với biểu tượng hạc giấy
+                nổi tiếng tượng trưng cho sự may mắn, trường thọ.
+              </p>
+            </div>
+          </div>
+          <div class="art-card animate-on-scroll">
+            <div class="card-image">
+              <img
+                src="https://redsvn.net/wp-content/uploads/2017/10/Bonzai_Plates_p101-102.jpg"
+                alt="bonsai"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Bonsai</h3>
+              <p>
+                Bonsai Nhật Bản (盆栽 - Bồn tài) là nghệ thuật trồng và tạo dáng
+                cây cảnh thu nhỏ trong chậu, kết hợp giữa kỹ thuật làm vườn tỉ
+                mỉ và triết lý Thiền tông. Bắt nguồn từ Trung Quốc vào thế kỷ
+                thứ 6-8, nghệ thuật này được người Nhật hoàn thiện, chú trọng sự
+                đơn giản, cân bằng, hài hòa và tôn trọng thiên nhiên. Cây bonsai
+                mang dáng dấp cổ thụ, tượng trưng cho sức sống mạnh mẽ và sự
+                kiên nhẫn.
+              </p>
+            </div>
+          </div>
+          <div class="art-card animate-on-scroll">
+            <div class="card-image">
+              <img
+                src="https://artnam.vn/wp-content/uploads/2025/08/tranh-khac-go-nhat-ban-mieu-ta-canh-cheo-thuyen-ben-song.jpg"
+                alt="Tranh khắc gỗ"
+              />
+            </div>
+            <div class="card-body">
+              <h3>Ukiyo-e</h3>
+              <p>
+                Tranh khắc gỗ Nhật Bản, hay còn gọi là Ukiyo-e (Phù thế hội), là
+                loại hình nghệ thuật đặc sắc thịnh hành từ thế kỷ 17 đến thế kỷ
+                19, đặc biệt trong thời kỳ Edo. Tranh khắc gỗ miêu tả đời sống
+                sinh hoạt, phong cảnh, diễn viên Kabuki, và phụ nữ đẹp, phản ánh
+                "thế giới phù du" hưởng lạc. Nổi tiếng với kỹ thuật in đa màu
+                (nishiki-e) và giấy Washi, Ukiyo-e đã trở thành nét thẩm mỹ đại
+                chúng, ảnh hưởng lớn đến hội họa phương Tây và anime/manga hiện
+                đại.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

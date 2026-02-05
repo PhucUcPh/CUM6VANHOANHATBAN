@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đố vui về Nhật Bản</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .quiz-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .option-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            background: #f0f0f0;
+            border: none;
+            border-radius: 5px;
+            text-align: left;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.2s;
+        }
+        .option-btn:hover {
+            background: var(--color-primary);
+            color: white;
+        }
+        .option-btn.selected {
+            background: var(--color-accent);
+            color: white;
+        }
+        #submit-btn {
+            margin-top: 1.5rem;
+            width: 100%;
+        }
+        .result-box {
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+   <nav class="navbar-container">
+    <div class="nav-brand">
+        <a href="index.html">Nhật Bản</a>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html" class="nav-link">Trang chủ</a></li>
+        <li><a href="clothes.html" class="nav-link">Trang phục</a></li>
+        <li><a href="arts.html" class="nav-link">Nghệ thuật</a></li>
+        <li><a href="pop_culture.html" class="nav-link">Văn hóa</a></li>
+        <li><a href="about_us.html" class="nav-link">Về chúng tôi</a></li>
+        <li><a href="quiz.html" class="nav-link">Đố vui</a></li>
+    </ul>
+</nav>
+
+    <header style="background: var(--color-primary); padding: 8rem 0 4rem; text-align: center; color: white;">
+        <div class="container">
+            <h1 style="font-size: 3rem; color: white;">KIỂM TRA HIỂU BIẾT CỦA BẠN VỀ NHẬT BẢN!</h1>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="quiz-container" id="quiz-box">
+            </div>
+            <div class="quiz-container result-box" id="result-box">
+                <h2>Đã hoàn thành!</h2>
+                <p id="score-text" style="font-size: 1.5rem; margin: 1rem 0;"></p>
+                <button onclick="location.reload()" class="btn btn-primary">Thử lại</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: #f9f9f9;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Bạn có biết?</h2>
+            <ul style="list-style-type: disc; max-width: 800px; margin: 0 auto; padding-left: 1.5rem;">
+                <li style="margin-bottom: 1rem;"> Nhật Bản sản xuất nhiều phim hoạt hình hơn bất kỳ quốc gia nào khác trên thế giới (60% số lượng hoạt hình toàn cầu!).</li>
+                <li style="margin-bottom: 1rem;">Có hơn 5 triệu máy bán hàng tự động tại Nhật Bản.</li>
+                <li style="margin-bottom: 1rem;">Nhật Bản gồm hơn 6.800 hòn đảo.</li>
+                <li style="margin-bottom: 1rem;">Húp bát mì ra tiến là một hành vi được coi là lịch sự – nó thể hiện bạn đang tận hưởng món ăn!</li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+    <script src="js/quiz.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
